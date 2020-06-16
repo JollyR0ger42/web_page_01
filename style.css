@@ -43,6 +43,7 @@ p{
 	row-gap: 30px;
 }
 button{
+	white-space: nowrap;
 	cursor: pointer;
 	outline: none;
 	text-transform: uppercase;
@@ -355,7 +356,7 @@ header .header-img-inside a{
 	align-items: center;
 }
 .team{
-	margin: 130px;
+	margin: 130px 0 0;
 	display: flex;
 	justify-content: space-around;
 }
@@ -387,6 +388,22 @@ header .header-img-inside a{
 .team .card button:hover{
 	color: white;
 	background-color: #3949ab;
+}
+.our-team .nav-dots{
+	color: #00897b;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+}
+.our-team .nav-dots span:hover{
+	color: #00463f;
+}
+.active-dot{
+	color: #00463f;
+}
+.our-team .nav-dots span{
+	font-size: 75px;
+	margin: 0 10px;
 }
 
 /* Blog */
@@ -600,7 +617,7 @@ header .header-img-inside a{
 		align-items: center;
 	}
 	.team .card{
-		margin-bottom: 70px;
+		margin-bottom: 50px;
 	}
 
 	/* Blog */
